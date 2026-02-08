@@ -85,6 +85,18 @@ Lo primero es intalar la CLI de TestRail en nuestro en nuestro proyecto usando l
 **Configuración de TestRail**
 Una vez instalado la CLI, debemos hacer algunas modificaciones en el gestor,  primero habilitar la API, luego debemos de dirigirnos a campos personalizados, una vez ahí crearemos uno de tipo texto, y lo nombraremos como Automation_id.
 
+Ahora en nuestro apartado de casos de pruebas, en testrail, los casos que queremos automatizar, deberemos darle click a editar, y aparecera el nuevo campo "Automation_id", cuyo nombre, puede ser cualquiera.
+
+En nuestro caso automatizado, debemos de poner el id, para que se pueda integrar correctamente con TestRail, y mas tarde mostrarse los resultados.
+
+        test('AUT_LCA02_02 - Iniciar Sesión, solo con contraseña, y dejar el email   vacío ', async ({ }) => {
+        await miLogin.login("", "PruebaUno123#");
+        await miLogin.tomarCaptura('AUT_LCA02_02', 'login');
+        await miLogin.banner(".alert.alert-danger", "You must provide both your         	email address and password");
+    });
+
+En el test tenemos el identificador o ID "AUT_LCA02_02", el cual esta vinculado a un caso de prueba en TestRail, es necesario que hagamos este proceso con los casos que queremos automatizar, de lo contrario playwright, no generara los resultados.
+
 **Resultados de Playwright integrados con TestRail**
 El siguiente paso es enviar los resultados al gestor de pruebas, con los comandos a continuación:
 
@@ -98,3 +110,5 @@ El siguiente paso es enviar los resultados al gestor de pruebas, con los comando
 	-f "./test-results/junit-report.xml"
 
 Cabe destacar que estas no son mis credenciales en caso de querer usar estos casos en un su propio proyecto debera usar su instancia de TestRail, con sus credenciales correspodientes.
+
+****
