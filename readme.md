@@ -3,13 +3,6 @@
 
 -------------
 
-**Indice**
-
-[TOCM]
-
-[TOC]
-
-
 ## Descripción
 Este repositorio cuenta con las estrategias, casos de pruebas manuales y automatizadas para el sistema web "Geek Toys", donde ademas se cubre todo el proceso de pruebas de software, desde el analisis de los requisitos, hasta el reporte final de los tests.
 
