@@ -24,17 +24,17 @@ Las pruebas que se llevaron a cabo fueron **funcionales**, y de caja negra, ya q
 El diseño y ejecución de pruebas se realizo a travez del gestor de pruebas "TestRail", por otro lado las pruebas de regresión se ejecutaron a travez de una herramienta de automatización, siendo esta "Playwright", cabe decir que esta herramienta se integro con TestRail, por tanto una vez se ejecutaban los test, los resultados obtenidos se generaban automaticamente en TestRail.
 
 **Documentación de Pruebas**
-https://github.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/blob/main/Reportes%20y%20Resultados/Matrices%20de%20Trazabilidad%2C%20Cobertura%20y%20Defectos/Resumen%20de%20Casos%20de%20Pruebas%20Pasados%20y%20Fallados.pdf
+https://github.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/blob/main/Casos%20de%20Pruebas%2C%20Reporte/Resumen%20de%20Casos%20de%20Pruebas%20Pasados%20y%20Fallados.pdf
 
 **Capturas de Pruebas**
 
 Pruebas en Testrail
 
-![](https://github.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/blob/main/Reportes%20y%20Resultados/Reportes/Pruebas%20Resumen.PNG?raw=true)
+https://github.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/blob/main/Documentaci%C3%B3n/capturas/Pruebas%20Resumen.PNG
 
 Pruebas en Playwright
 
-![](https://github.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/blob/main/Reportes%20y%20Resultados/Reportes/Pruebas%20Automatizadas.PNG?raw=true)
+https://raw.githubusercontent.com/Samur-Code/Proceso-de-Pruebas-en-el-commerce-Geek-Toy/refs/heads/main/Documentaci%C3%B3n/capturas/Pruebas%20Automatizadas.PNG
 
 ## Configuración para las Pruebas Automatizadas
 
