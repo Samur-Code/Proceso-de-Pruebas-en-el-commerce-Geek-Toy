@@ -1,4 +1,4 @@
-### QA Proyecto: Pruebas Integrales, Sistema de Compras de Juguetes.
+### QA Proyecto: Pruebas Integrales, Sistema de Compras de Juguetes "Geek Toys".
 ![](https://shop.geekqa.net/litecart/public_html/images/slides/1-rocket-cart.svg)
 
 -------------
